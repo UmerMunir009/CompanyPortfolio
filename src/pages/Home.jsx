@@ -6,6 +6,8 @@ import ProcessSection from '../components/processSection'
 import GradientSection from '../components/gradientSection'
 import ExpertiseSection from '../components/expertiseSection'
 import PremiumProSec from '../components/premiumProSec'
+import OurClient from '../components/ourClients'
+import GetInTouch from '../components/getInTouch'
 
 
 const Home = () => {
@@ -18,8 +20,8 @@ const Home = () => {
       <GradientSection />
       <ExpertiseSection />
       <PremiumProSec />
-      
-      
+      <OurClient />
+      <GetInTouch />
       
     </div>
   )

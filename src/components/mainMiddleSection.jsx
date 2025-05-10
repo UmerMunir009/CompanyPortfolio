@@ -21,7 +21,7 @@ const mainMiddleSection = () => {
             </div>
             <div>
               <h2 className='text-[#06B8FF] text-lg sm:text-sm md:text-md font-bold '>Our Vision</h2>
-              <p className='text-wrap text-sm sm:text-[10px] lg:text-sm text-gray-500'>It is a long established fact that It is </p>
+              <p className='text-wrap text-[10px] lg:text-[14px] text-gray-500'>It is a long established fact that It is </p>
             </div>
           </div>
            <div className='flex bg-[#06B8FF0F] py-3 px-4 lg:pr-10 rounded'>
@@ -30,7 +30,7 @@ const mainMiddleSection = () => {
             </div>
             <div>
               <h2 className='text-[#06B8FF] text-lg sm:text-sm md:text-md font-bold '>Our Goal</h2>
-              <p className='text-wrap  text-sm sm:text-[10px] lg:text-sm text-gray-500'>It is a long established fact that It is</p>
+              <p className='text-wrap   text-[10px] lg:text-[14px] text-gray-500'>It is a long established fact that It is</p>
             </div>
           </div>
         </div>

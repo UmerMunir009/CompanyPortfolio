@@ -32,6 +32,11 @@ import exp6 from './exp6.png';
 import pre1 from './pre1.jpg';
 import pre2 from './pre2.jpg';
 import pre3 from './pre3.jpg';
+import colon from './colon.png';
+import client1 from './client1.png';
+import phone from  './phone.png';
+import email from './email.png';
+import map from './map.png'
 
 
 export  const assets = {
@@ -68,7 +73,12 @@ export  const assets = {
     exp6,
     pre1,
     pre2,
-    pre3
+    pre3,
+    colon,
+    client1,
+    phone,
+    email,
+    map
     
   }
 
@@ -148,4 +158,27 @@ export const premiumProjects =[
       "description": "What are your safeguarding responsibilities and how can you manage them?"
     },
    
+]
+export const ourClientsData =[
+  {
+      
+      "image": client1,
+      "name": "QAMAR MUNIR",
+      "role": "CEO",
+      "description": "It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout"
+    },
+  {
+      
+      "image": client1,
+      "name": "UMER MUNIR",
+      "role": "Developer",
+      "description": "It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout"
+    },
+  {
+      
+      "image": client1,
+       "name": "Andrew",
+      "role": "Developer",
+      "description": "It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout"
+    }   
 ]
