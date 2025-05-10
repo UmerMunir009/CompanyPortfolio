@@ -20,6 +20,19 @@ import barimg5 from './barimg5.png';
 import barimg6 from './barimg6.png';
 import barimg7 from './barimg7.png';
 import barimg8 from './barimg8.png';
+import bulb from './bulb.png';
+import star from './star.png';
+import test from './test.png';
+import exp1 from './exp1.png';
+import exp2 from './exp2.png';
+import exp3 from './exp3.png';
+import exp4 from './exp4.png';
+import exp5 from './exp5.png';
+import exp6 from './exp6.png';
+import pre1 from './pre1.jpg';
+import pre2 from './pre2.jpg';
+import pre3 from './pre3.jpg';
+
 
 export  const assets = {
     contact,
@@ -44,4 +57,95 @@ export  const assets = {
     barimg6,
     barimg7,
     barimg8,
-}
+    bulb,
+    star,
+    test,
+    exp1,
+    exp2,
+    exp3,
+    exp4,
+    exp5,
+    exp6,
+    pre1,
+    pre2,
+    pre3
+    
+  }
+
+export const processes =[
+  {
+    "number": "01",
+    "name": "Research",
+    "image": search,
+    "description": "It is a long established fact that a reader will be distra by the readable content of a page."
+  },
+  {
+    "number": "02",
+    "name": "Design",
+    "image": pencil,
+    "description": "It is a long established fact that a reader will be distra by the readable content of a page."
+  },
+  {
+    "number": "03",
+    "name": "Develope",
+    "image": setting,
+    "description": "It is a long established fact that a reader will be distra by the readable content of a page."
+  },
+  {
+    "number": "04",
+    "name": "Test",
+    "image": test,
+    "description": "It is a long established fact that a reader will be distra by the readable content of a page."
+  }
+]
+
+export const expertise =[
+  {
+      "name": "Web Design / Development",
+      "image": exp1,
+      "description": "It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout"
+    },
+    {
+      "name": "UI/UX Design",
+      "image": exp2,
+      "description": "It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout"
+    },
+    {
+      "name": "Website Migration",
+      "image": exp3,
+      "description": "It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout"
+    },
+    {
+      "name": "App Development",
+      "image": exp4,
+      "description": "It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout"
+    },
+    {
+      "name": "HubSpot Integration",
+      "image": exp5,
+      "description": "It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout"
+    },
+    {
+      "name": "Email Marketing",
+      "image": exp6,
+      "description": "It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout"
+    }
+]
+export const premiumProjects =[
+  {
+      
+      "image": pre1,
+      "description": "What are your safeguarding responsibilities and how can you manage them?"
+    },
+  {
+      
+      "image": pre2,
+      "description": "What are your safeguarding responsibilities and how can you manage them?"
+    },
+  {
+      
+      "image": pre3,
+      "description": "What are your safeguarding responsibilities and how can you manage them?"
+    },
+   
+]
